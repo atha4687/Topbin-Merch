@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - TOPBIN MERCH</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #000;
+      color: #f8f9fa;
+    }
+
+    h2 {
+      color: #f5c518;
+    }
+
+    label {
+      color: #f8f9fa;
+      font-weight: bold;
+    }
+
+    .form-control {
+      background-color: #1a1a1a;
+      border: 1px solid #555;
+      color: #f8f9fa;
+    }
+
+    .form-control:focus {
+      border-color: #f5c518;
+      box-shadow: 0 0 0 0.25rem rgba(245, 197, 24, 0.25);
+    }
+
+    .btn-success {
+      background-color: #f5c518;
+      color: #000;
+      border: none;
+    }
+
+    .btn-success:hover {
+      background-color: #ffc107;
+      color: #000;
+    }
+
+    footer {
+      background-color: #111;
+      border-top: 2px solid #f5c518;
+    }
+
+    .navbar-brand img {
+      height: 40px;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary py-4" style="font-size: 1.25rem;">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-3" href="index.html" style="padding: 0;">
+      <img src="assets/images/topbin.png" alt="TopBin Logo" style="height: 200px; width: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.4);">
+      <span class="fw-bold fs-3" style="color: #f5c518;">
+    </a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="nav" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html" style="color: #f5c518;">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html" style="color: #f5c518;">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="menu.html" style="color: #f5c518;">Merch</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html" style="color: #f5c518;">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="cart.html" style="color: #f5c518;">Cart</a></li>
+        <li class="nav-item"><a class="nav-link" href="checkout.html" style="color: #f5c518;">Checkout</a></li>
+        <li class="nav-item"><a class="nav-link" href="reviews.html" style="color: #f5c518;">Reviews</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- FORM -->
+<div class="container mt-5">
+  <h2 class="text-center mb-4">Contact Us</h2>
+  <form>
+    <div class="mb-3"><label>First Name</label><input class="form-control" type="text" placeholder="Enter your first name"></div>
+    <div class="mb-3"><label>Last Name</label><input class="form-control" type="text" placeholder="Enter your last name"></div>
+    <div class="mb-3"><label>Telephone</label><input class="form-control" type="tel" placeholder="(555) 123-4567"></div>
+    <div class="mb-3"><label>Email</label><input class="form-control" type="email" placeholder="you@example.com"></div>
+    <div class="mb-3"><label>Message</label><textarea class="form-control" rows="5" placeholder="Type your message here..."></textarea></div>
+    <div class="text-center">
+      <button class="btn btn-success px-4">Send</button>
+    </div>
+  </form>
+</div>
+
+<!-- FOOTER -->
+<footer class="text-white text-center p-3 mt-5">
+  <p>&copy; 2025 TopBin Merch</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

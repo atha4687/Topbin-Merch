@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TOPBIN MERCH - Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom Styling -->
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .navbar {
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    }
+
+    .carousel-inner img {
+      height: 400px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    h3, h5 {
+      color: #f5c518;
+    }
+
+    .card {
+      background-color: #1c1c1c;
+      color: #fff;
+      border: none;
+      box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+    }
+
+    .card .btn {
+      background-color: #f5c518;
+      color: #000;
+      font-weight: bold;
+      border: none;
+    }
+
+    .card .btn:hover {
+      background-color: #fff;
+      color: #000;
+    }
+
+    .modal-content {
+      background-color: #111;
+      color: #fff;
+      border: 1px solid #444;
+    }
+
+    footer {
+      background-color: #111;
+      border-top: 2px solid #f5c518;
+    }
+
+    h3, h5 {
+      text-shadow: 0 0 10px #f5c518;
+    }
+  </style>
+</head>
+<body>
+<!-- NAVIGATION -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary py-4" style="font-size: 1.25rem;">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-3" href="index.html" style="padding: 0;">
+        <img src="assets/images/topbin.png" alt="TopBin Logo" style="height: 200px; width: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.4);">
+        <span class="fw-bold fs-3" style="color: #f5c518;">
+      </a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html" style="color: #f5c518;">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html" style="color: #f5c518;">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="menu.html" style="color: #f5c518;">Merch</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html" style="color: #f5c518;">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="cart.html" style="color: #f5c518;">Cart</a></li>
+          <li class="nav-item"><a class="nav-link" href="checkout.html" style="color: #f5c518;">Checkout</a></li>
+          <li class="nav-item"><a class="nav-link" href="reviews.html" style="color: #f5c518;">Reviews</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  
+
+<!-- CAROUSEL -->
+<div class="container mt-4">
+  <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/images/topbin.png" class="d-block w-100" alt="TOPBIN MERCH" style="height: 600px; object-fit: cover;">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/prism-pack.png" class="d-block w-100" alt="Prism Pack Nike" style="height: 600px; object-fit: cover;">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/liverpool-banner.png" class="d-block w-100" alt="Liverpool Salah" style="height: 600px; object-fit: cover;">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</div>
+
+<!-- PLAYER OF THE MONTH -->
+<div class="container text-center mt-5">
+  <h3>Player of the Month</h3>
+  <img src="assets/images/zlatan.gif" alt="Zlatan Ibrahimovic GIF" class="img-fluid rounded shadow" style="max-width: 300px;">
+</div>
+
+<!-- JERSEY CARD DEAL -->
+<div class="container mt-5">
+  <div class="card">
+    <img src="assets/images/jersey.JPG" alt="Player Jersey" class="img-fluid rounded-top" style="max-height: 1500px; object-fit: cover;">
+    <div class="card-body text-center">
+      <h5 class="card-title">Jersey of the Day</h5>
+      <p class="card-text">Get 15% off the latest VSU Home Jersey — Today Only!</p>
+      <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#productModal">View Offer</button>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL -->
+<div class="modal fade" id="productModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header"><h5 class="modal-title">Special Offer</h5></div>
+      <div class="modal-body"><p>This offer is valid for 24 hours only. Don’t miss out!</p></div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <a href="menu.html" class="btn btn-warning">Shop Now</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="text-white text-center p-3 mt-5">
+  <p>&copy; 2025 TOPBIN MERCH</p>
+</footer>
+
+<!-- Bootstrap Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

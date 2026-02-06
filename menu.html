@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Merch - TOPBIN MERCH</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+<!-- NAVIGATION -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary py-4" style="font-size: 1.25rem;">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-3" href="index.html" style="padding: 0;">
+        <img src="assets/images/topbin.png" alt="TopBin Logo" style="height: 200px; width: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.4);">
+        <span class="fw-bold fs-3" style="color: #f5c518;">
+      </a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html" style="color: #f5c518;">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html" style="color: #f5c518;">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="menu.html" style="color: #f5c518;">Merch</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html" style="color: #f5c518;">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="cart.html" style="color: #f5c518;">Cart</a></li>
+          <li class="nav-item"><a class="nav-link" href="checkout.html" style="color: #f5c518;">Checkout</a></li>
+          <li class="nav-item"><a class="nav-link" href="reviews.html" style="color: #f5c518;">Reviews</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- ACCORDION -->
+<div class="container mt-5">
+  <h2>Merch Categories</h2>
+  <div class="accordion" id="merchAccordion">
+<!-- Inside accordion-body -->
+<div class="accordion-body">
+    <p>All your favorite team kits — available in all sizes.</p>
+    <img src="assets/images/menu.png" alt="Jersey Shop" class="img-fluid mt-3 rounded shadow mb-4">
+  
+    <div class="text-center bg-warning py-3 rounded mb-4">
+      <h4 class="text-dark fw-bold mb-1">Popular Jerseys</h4>
+      <p class="text-dark mb-0">Free Shipping with Code: <strong>FANJERSEY</strong></p>
+    </div>
+  
+    <!-- 🆕 Replace old <div class="row"> with this -->
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <a href="bayern.html">
+            <img src="assets/images/bayern.avif" class="card-img-top" alt="Bayern Jersey">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Bayern Munich Away 25/26</h5>
+            <p class="card-text text-muted">Adidas — $49.99</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <a href="usa.html">
+            <img src="assets/images/usa.webp" class="card-img-top" alt="USA Jersey">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">USA National Team Jersey</h5>
+            <p class="card-text text-muted">Nike — $44.99</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <a href="mancity.html">
+            <img src="assets/images/mancity.webp" class="card-img-top" alt="Man City Jersey">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Manchester City Alt Jersey</h5>
+            <p class="card-text text-muted">Puma — $50.99</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <a href="pink.html">
+            <img src="assets/images/pink.webp" class="card-img-top" alt="Women's Jersey">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Women's Custom Kit</h5>
+            <p class="card-text text-muted">Adidas — $24.99</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <a href="jersey.html">
+            <img src="assets/images/liverpool.jpeg" class="card-img-top" alt="Liverpool Jersey">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Liverpool Third Jersey</h5>
+            <p class="card-text text-muted">Arnold #66 — $99.99</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+   <!-- Footwear Tab -->
+<div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#shoes">
+        Footwear
+      </button>
+    </h2>
+    <div id="shoes" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        <img src="assets/images/messi-cleats.jpg" alt="Messi Cleats Banner" class="img-fluid mb-4 rounded shadow">
+  
+        <div class="text-center bg-dark text-white py-3 rounded mb-4">
+          <h4 class="fw-bold mb-1">Free Shipping on Footwear</h4>
+          <p class="mb-0">Use Code: <strong>NEWCLEATS</strong></p>
+        </div>
+  
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <!-- Messi Cleats -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="assets/images/messi-cleats.jpg" class="card-img-top" alt="Messi Cleats">
+              <div class="card-body">
+                <h5 class="card-title">Adidas X Crazyfast Messi</h5>
+                <p class="card-text text-muted">Firm Ground — $60.99</p>
+                <label for="size-messi" class="form-label">Size</label>
+                <select id="size-messi" class="form-select mb-2">
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                </select>
+                <button class="btn btn-warning w-100" onclick="addToCart('Adidas X Crazyfast Messi', 60.99, 'assets/images/messi-cleats.jpg', document.getElementById('size-messi').value)">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Spongebob Cleats -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="assets/images/spongebob.webp" class="card-img-top" alt="Spongebob Cleats">
+              <div class="card-body">
+                <h5 class="card-title">Adidas Freak Spongebob</h5>
+                <p class="card-text text-muted">Limited Edition — $49.99</p>
+                <label for="size-sponge" class="form-label">Size</label>
+                <select id="size-sponge" class="form-select mb-2">
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                </select>
+                <button class="btn btn-warning w-100" onclick="addToCart('Adidas Freak Spongebob', 49.99, 'assets/images/spongebob.webp', document.getElementById('size-sponge').value)">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+  
+          <!-- F50 Pink -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="assets/images/f50-pink.avif" class="card-img-top" alt="F50 Pink">
+              <div class="card-body">
+                <h5 class="card-title">Adidas F50 Elite - Pink</h5>
+                <p class="card-text text-muted">Firm Ground — $89.99</p>
+                <label for="size-pink" class="form-label">Size</label>
+                <select id="size-pink" class="form-select mb-2">
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                </select>
+                <button class="btn btn-warning w-100" onclick="addToCart('Adidas F50 Elite - Pink', 89.99, 'assets/images/f50-pink.avif', document.getElementById('size-pink').value)">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+  
+          <!-- F50 Blue -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="assets/images/f50-blue.avif" class="card-img-top" alt="F50 Blue">
+              <div class="card-body">
+                <h5 class="card-title">Adidas F50 Elite - Blue</h5>
+                <p class="card-text text-muted">Firm Ground — $69.99</p>
+                <label for="size-blue" class="form-label">Size</label>
+                <select id="size-blue" class="form-select mb-2">
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                </select>
+                <button class="btn btn-warning w-100" onclick="addToCart('Adidas F50 Elite - Blue', 69.99, 'assets/images/f50-blue.avif', document.getElementById('size-blue').value)">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
+  <!-- JS: Add to Cart -->
+  <script>
+    function addToCart(name, price, image, size) {
+      const item = {
+        name: name,
+        price: price,
+        image: image,
+        size: size,
+        quantity: 1
+      };
+  
+      let cart = JSON.parse(localStorage.getItem('cartItems')) || [];
+  
+      // Match on name and size
+      const existing = cart.find(i => i.name === item.name && i.size === item.size);
+      if (existing) {
+        existing.quantity += 1;
+      } else {
+        cart.push(item);
+      }
+  
+      localStorage.setItem('cartItems', JSON.stringify(cart));
+      window.location.href = 'cart.html';
+    }
+  </script>
+  
+<!-- Accessories Tab -->
+<div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accessories">
+        Accessories
+      </button>
+    </h2>
+    <div id="accessories" class="accordion-collapse collapse">
+      <div class="accordion-body text-center">
+        <img src="assets/images/accessories.gif" alt="Animated Soccer Ball" class="img-fluid rounded shadow mb-3">
+        <p>Scarves, bags, shin guards, and other essentials for your matchday setup.</p>
+  
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 mt-3">
+          <!-- Shin Guard -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="assets/images/nike-shinguard.webp" class="card-img-top" alt="Nike Shin Guard">
+              <div class="card-body">
+                <h5 class="card-title">Nike Mercurial Lite Shin Guard</h5>
+                <p class="card-text text-muted">Durable + Lightweight — $24.99</p>
+                <button class="btn btn-outline-warning w-100" onclick="addToCart('Nike Mercurial Lite Shin Guard', 24.99, 'assets/images/nike-shinguard.webp')">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+  
+          <!-- LFC Backpack -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="assets/images/liverpool-backpack.jpg" class="card-img-top" alt="LFC Backpack">
+              <div class="card-body">
+                <h5 class="card-title">Liverpool FC Backpack</h5>
+                <p class="card-text text-muted">Official Gear — $39.99</p>
+                <button class="btn btn-outline-warning w-100" onclick="addToCart('Liverpool FC Backpack', 39.99, 'assets/images/liverpool-backpack.jpg')">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+  
+          <!-- PL Ball -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="assets/images/premier-league-ball.webp" class="card-img-top" alt="PL Soccer Ball">
+              <div class="card-body">
+                <h5 class="card-title">Nike Premier League Ball</h5>
+                <p class="card-text text-muted">Match Ready — $29.99</p>
+                <button class="btn btn-outline-warning w-100" onclick="addToCart('Nike Premier League Ball', 29.99, 'assets/images/premier-league-ball.webp')">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
+  <!-- Add to Cart Script -->
+  <script>
+    function addToCart(name, price, image) {
+      const item = {
+        name,
+        price,
+        image,
+        quantity: 1
+      };
+  
+      let cart = JSON.parse(localStorage.getItem('cartItems')) || [];
+  
+      const existing = cart.find(i => i.name === item.name);
+      if (existing) {
+        existing.quantity += 1;
+      } else {
+        cart.push(item);
+      }
+  
+      localStorage.setItem('cartItems', JSON.stringify(cart));
+      window.location.href = 'cart.html';
+    }
+  </script>
+  
+<!-- FOOTER -->
+<footer class="bg-primary text-white text-center p-3 mt-5">
+  <p>&copy; 2025 TOPBIN MERCH</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
